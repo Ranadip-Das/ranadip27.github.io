@@ -1,0 +1,221 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*-----Navigation----*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index:10;
+}
+
+.navbar-brand li
+{
+    padding: :0 10px;
+}
+.navbar-brand li a
+{
+    float:right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+ color: #007bff!important;   
+}
+
+.navbar{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*---------------------------------------Slider-------------------------------------------------*/
+#slider
+{
+    width: 100%;
+}
+
+.carousel-caption
+{
+    top: 95%;
+    transform: translateY(-95%);
+    bottom: initial!important;
+}
+.carousel-caption h4
+{
+    color:#090000;
+    font-size: 42px;
+    font-family: "Font Awesome 5 Brands";
+}
+
+.carousel-caption h5
+{
+    color: black;
+    font-size: 38px;  
+    font-family:"Font Awesome 5 Pro";
+}
+
+/*------------------------------About-----------------------------*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:#555;
+    font-family:"Font Awesome 5 Pro";
+}
+#about .btn-primary
+{
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.about-content h4
+{
+    color: black;
+}
+.about-content h3
+{
+    color: black;
+}
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-family: "Font Awesome 5 Brands"
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+   border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+/*-----------------------------gallery----------------------*/
+#gallery
+{
+ padding-top: 50px;
+    padding-bottom: 50px;
+    color:#555;
+    font-family:serif;   
+}
+.container h1
+{
+    font-family:serif;
+}
+
+/*---------------------Community----------------------------*/
+#community
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+    
+}
+h1
+{
+    text-align: center;
+    color: #555!important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 200px;
+    margin: 20px auto 5px;
+}
+.container
+{
+    background-size: cover;
+    background-position: center;
+}
+.background-image
+{
+    background-image: url(Background1.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+.background-image h3
+{
+    font-family: sans-serif;
+    
+}
+.background-image h2
+{
+    font-family: cursive;
+    
+}
+/*-----------------------Get in touch-------------------*/
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#777;
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 4px !important;
+    border:none !important;
+}
+::placeholder
+{
+    color:#999 !important;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 4px !important;
+     border:none !important;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+/*-------------------Footer--------------*/
+#footer
+{
+ background: #333;    
+    color:#fff;
+    padding: 12px;
+}
+.fa-heart-o
+{
+    margin: 3px;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
